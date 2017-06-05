@@ -13,7 +13,7 @@ In order to run RAGB you need:
 
 - **ncbi-blast-2.6.0+** program (please go to https://www.ncbi.nlm.nih.gov/books/NBK52640/ and follow the **downloading, configuration and execution steps**)
 
-The easiest way to run the project is to execute the executable file ***RAGB*** (https://www.cs.bgu.ac.il/~negevcb/RAGB/RAGBI/). 
+The easiest way to run the project is to execute the executable file [RAGBI.exe](https://www.cs.bgu.ac.il/~negevcb/RAGB/RAGB.exe). 
 
 ```
 ./RAGB [-q FOLDER] [-g FOLDER] [-o FOLDER] [-d INT] [-n INT] [-iv STRING] [-min_genomes INT] [-min_genes INT] [-rank INT] [-e FLOAT]
@@ -45,7 +45,7 @@ Example: inside ```/db``` there is ```/db/species1``` folder which has ```specie
     
 
 ### Data
-We supply data so users can test **RAGB**. The data is available at https://www.cs.bgu.ac.il/~negevcb/RAGB/RAGBI/ragbi-data/.
+We supply data so users can test **RAGB**. The data is available [here](https://www.cs.bgu.ac.il/~negevcb/RAGB/ragb-data/).
 For the reference folder we give the ```/genomes``` directory which contain 33 GeneBank files of different speciess.
 For the query folder we give a few options:
 - ```/IslandViewer_sample_data```, this folder contain 3 subfolder for 3 different speciess that were analysed by the IsalndViewer tool (this input is in IsalndViewer format).
