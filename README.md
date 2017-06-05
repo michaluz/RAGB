@@ -4,6 +4,7 @@ By Arnon Benshahar
 ---
 ## Introduction
 We  formalize  a  new  problem  variant  in  gene-block  discovery, denoted **Reference-Anchored  Gene  Blocks(RAGB)**. Given a query sequence **Q** of length **n**, representing the gene-array of a DNA element,a  window  size  bound **d** on  the  length  of  a  substring  of  interest  in **Q**, and a set of target gene sequences **T=T1...Tc**. Our objective is to identify gene-blocks in **T** that are centered in a subset **q** of co-localized genes from **Q**, and contain genomes from **T** in which the corresponding orthologs of the genes from **q** are also co-localized. **RAGB** program is available open-source at https://github.com/benarnon/RAGB and at https://www.cs.bgu.ac.il/~negevcb/RAGB/ where you can find also executable file,  including omitted proofs, figures and data. In addtion we developed a user freindly [website](http://bit.ly/2shuyzJ) where users can explore the data and the results from our article.
+
 ---
 
 ## Getting Started
